@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  background-image: linear-gradient(
+      rgba(13 13 105 / 50%),
+      rgba(13 13 105 / 50%)
+    ),
+    url(img/background-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  background-color: transparent;
+  color: white;
+}
+
+header h1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  font-weight: bold;
+}
+
+.wrapper {
+  margin: 0 auto;
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  width: 50rem;
+  height: 40rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.centerName {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#headerName {
+  font-size: 100px;
+  font-weight: bolder;
+  margin: 0;
+}
+
+#latinName {
+  font-size: 75px;
+  font-weight: bolder;
+  color: bisque;
+  margin: 0;
+}
+
+#desc {
+  line-height: 1.1rem;
+  border-bottom: 2px solid bisque;
+}
+
+.wrapInfo {
+  display: flex;
+  border-bottom: 2px solid bisque;
+}
+
+.overRow {
+  margin: 0 20rem 5rem 0;
+}
+
+.listPlanets {
+  list-style-type: none;
+}
+
+#nextPageBtn {
+  cursor: pointer;
+}
+
+#prevPageBtn {
+  cursor: pointer;
+}

@@ -1,0 +1,53 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styleinfo.css" />
+    <title>Planet info</title>
+  </head>
+
+  <body>
+    <main>
+      <section class="wrapper">
+        <article class="centerName">
+          <h1 id="headerName"></h1>
+          <h2 id="latinName"></h2>
+        </article>
+
+        <article>
+          <p id="desc"></p>
+        </article>
+        <article class="wrapInfo">
+          <section class="overRow">
+            <p id="tempDay"></p>
+            <p id="type"></p>
+          </section>
+
+          <section class="underRow">
+            <p id="tempNight"></p>
+            <p id="dist"></p>
+          </section>
+        </article>
+
+        <article>
+          <p id="moon">Månar</p>
+          <ul id="match">
+            <li id="solenMoon"></li>
+            <li id="merkuriusMoon"></li>
+            <li id="venusMoon"></li>
+            <li id="jordenMoon"></li>
+            <li id="marsMoon"></li>
+            <li id="jupiterMoon"></li>
+            <li id="saturnusMoon"></li>
+            <li id="uranusMoon"></li>
+            <li id="neptunusMoon"></li>
+          </ul>
+          <input type="button" id="prevPageBtn" value="Tillbaka" />
+          <input type="button" id="nextPageBtn" value="Nästa sida" />
+        </article>
+      </section>
+    </main>
+    <script src="infoPage.js"></script>
+  </body>
+</html>

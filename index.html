@@ -1,0 +1,53 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Planets</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Sol<span class="systemColor">systemet</span></h1>
+      <input type="text" id="search" placeholder="Sök.." />
+      <input type="button" id="btn" value="Planeter" />
+    </header>
+
+    <main>
+      <section id="planetsContainer"></section>
+
+      <article id="image-container">
+        <img id="sol" src="img/sun-flat.png" alt="" />
+
+        <img id="merk" src="img/merkurius-flat.png" alt="" />
+
+        <img id="ven" src="img/venus-flat.png" alt="" />
+
+        <img id="jord" src="img/jorden-flat.png" alt="" />
+
+        <img id="mars" src="img/mars-flat.png" alt="" />
+
+        <img id="jup" src="img/jupiter-flat.png" alt="" />
+
+        <img id="sat" src="img/saturnus-flat.png" alt="" />
+
+        <img id="ura" src="img/uranus-flat.png" alt="" />
+
+        <img id="nep" src="img/neptunus-flat.png" alt="" />
+      </article>
+    </main>
+    <section id="svg">
+      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+      <lottie-player
+        id="background"
+        src="https://assets4.lottiefiles.com/packages/lf20_boxvz7r0.json"
+        background="transparent"
+        speed="1"
+        loop
+        autoplay
+      ></lottie-player>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
